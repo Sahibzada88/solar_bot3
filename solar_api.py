@@ -1,11 +1,9 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from openai import OpenAI
-import pandas as pd
 import os
 from dotenv import load_dotenv
-load_dotenv
-import re
+load_dotenv()
 from fastapi.middleware.cors import CORSMiddleware
 from groq import Groq
 from solar_functions import get_solar_data
