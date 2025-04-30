@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "chatbot.py",
+        "src": "solar_api.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "chatbot.py"
+        "dest": "solar_api.py"
       }
     ]
   }
